@@ -1,0 +1,55 @@
+body {
+    overflow-x: hidden;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    z-index: 100;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar ul li {
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown:hover {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    max-width: 35px;
+}
+
+.dropdown-content li {
+    display: inline-block;
+    text-align: left;
+    float: none;
+    background-color: aqua;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
