@@ -1,0 +1,84 @@
+footer {
+    padding: 10px 50px 10px 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#cover {
+    background-size: 100vw 100vh;
+    background-image: url(./Image/Things_to_do_in_Malaysia_77c858f690.png);
+    background-repeat: no-repeat;
+}
+
+#malaysia-hero {
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+    color: white;
+}
+
+#malaysia-hero img {
+    border-radius: 20px;
+}
+
+@keyframes cardGrow {
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+@keyframes cardShrink {
+    0%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#destinations {
+    color: white;
+    scroll-margin-top: 74px;
+    background: linear-gradient(to right, #283048, #859398);
+}
+
+#card:hover{
+    animation: cardGrow 0.2s ease-in-out forwards;
+}
+
+#card:not(:hover){
+    animation: cardShrink 0.2s ease-in-out forwards;
+}
+
+#penang{
+    background-image: url("./Image/penang1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#sabah{
+    background-image: url("./Image/Sabah.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#melaka{
+    background-image: url("./Image/melaka.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#langkawi{
+    background-image: url("./Image/Langkawi.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#signUpForm {
+    background: linear-gradient(to right, #182848, #4b6cb7);
+}
+
+#form-text {
+    color: white;
+
+}
